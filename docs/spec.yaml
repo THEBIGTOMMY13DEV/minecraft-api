@@ -9,7 +9,7 @@ info:
     name: Anish Shanbhag
     url: "https://github.com/anish-shanbhag"
 servers:
-  - url: "https://minecraft-api.vercel.app/api"
+  - url: "https://minecraft-api-new.vercel.app/api"
 paths:
   /items:
     get:
@@ -103,26 +103,26 @@ paths:
                     - name: Acacia Boat
                       namespacedId: acacia_boat
                       description: A boat is both an item and a vehicle entity.
-                      image: "https://minecraft-api.vercel.app/images/items/acacia_boat.png"
+                      image: "https://minecraft-api-new.vercel.app/images/items/acacia_boat.png"
                       stackSize: 1,
                       renewable: true
                     - name: Acacia Button
                       namespacedId: acacia_button
                       description: A button is a non-solid block that can provide temporary redstone power.
-                      image: "https://minecraft-api.vercel.app/images/items/acacia_button.png"
+                      image: "https://minecraft-api-new.vercel.app/images/items/acacia_button.png"
                       stackSize: 64,
                       renewable: true
                 Example 2:
                   value:
                     - name: Fishing Rod
                       description: A fishing rod is a tool used primarily for fishing.
-                      image: "https://minecraft-api.vercel.app/images/items/fishing_rod.png"
+                      image: "https://minecraft-api-new.vercel.app/images/items/fishing_rod.png"
                     - name: Fletching Table
                       description: A fletching table is a fletcher's job site block that can generate naturally in villages.
-                      image: "https://minecraft-api.vercel.app/images/items/fletching_table.png"
+                      image: "https://minecraft-api-new.vercel.app/images/items/fletching_table.png"
                     - name: Flint
                       description: Flint is a mineral obtained from gravel.
-                      image: "https://minecraft-api.vercel.app/images/items/flint.png"
+                      image: "https://minecraft-api-new.vercel.app/images/items/flint.png"
         "400":
           description: Bad Request - sent when you pass the `page` parameter but not the `limit` parameter.
         "500":
@@ -175,7 +175,7 @@ paths:
                     - name: Anvil
                       namespacedId: anvil
                       description: "An anvil is a block that allows players to repair items, rename items, and combine enchantments."
-                      image: "https://minecraft-api.vercel.app/images/blocks/anvil.png"
+                      image: "https://minecraft-api-new.vercel.app/images/blocks/anvil.png"
                       item: "Anvil"
                       transparent: true
                       luminance: 0
@@ -185,7 +185,7 @@ paths:
                     - name: Attached Melon Stem
                       namespacedId: attached_melon_stem
                       description: Melon seeds are an item that can be used to grow melon plants.
-                      image: "https://minecraft-api.vercel.app/images/blocks/attached_melon_stem.png"
+                      image: "https://minecraft-api-new.vercel.app/images/blocks/attached_melon_stem.png"
                       item: null
                       transparent: true
                       luminance: 0
@@ -195,19 +195,19 @@ paths:
                 Example 2:
                   value:
                     - name: Tall Grass
-                      image: "https://minecraft-api.vercel.app/images/blocks/tall_grass.png"
+                      image: "https://minecraft-api-new.vercel.app/images/blocks/tall_grass.png"
                       luminance: 0
                       blastResistance: 0
                     - name: Tall Seagrass
-                      image: "https://minecraft-api.vercel.app/images/blocks/tall_seagrass.png"
+                      image: "https://minecraft-api-new.vercel.app/images/blocks/tall_seagrass.png"
                       luminance: 0
                       blastResistance: 0
                     - name: Terracotta
-                      image: "https://minecraft-api.vercel.app/images/blocks/terracotta.png"
+                      image: "https://minecraft-api-new.vercel.app/images/blocks/terracotta.png"
                       luminance: 0
                       blastResistance: 4.2
                     - name: Torch
-                      image: "https://minecraft-api.vercel.app/images/blocks/torch.png"
+                      image: "https://minecraft-api-new.vercel.app/images/blocks/torch.png"
                       luminance: 14
                       blastResistance: 0
         "400":
