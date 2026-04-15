@@ -379,7 +379,7 @@ const writeItems = (items: Item[]) => {
           if (names.includes(name)) return;
           const imageName =
             page === "Music_Disc" ? updatedNamespacedId : name.toLowerCase().replace(/ /g, "_");
-          const image = `https://minecraft-api.vercel.app/items/${imageName}.${
+          const image = `https://minecraft-api-new.vercel.app/items/${imageName}.${
             gifURL ? "gif" : "png"
           }`;
           if (gifURL) {
