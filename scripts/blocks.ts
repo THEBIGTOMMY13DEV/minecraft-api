@@ -108,7 +108,7 @@ const getItemNameForBlock = (name: string) => {
               wikiImage.write("public/blocks/" + namespacedId + ".png");
             }
           }
-          let image = `https://minecraft-api.vercel.app/blocks/${imageName}.png`;
+          let image = `https://minecraft-api-new.vercel.app/blocks/${imageName}.png`;
 
           let item = null;
           const itemName = getItemNameForBlock(name);
